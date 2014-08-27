@@ -5,31 +5,38 @@ so I threw this together modelled after bootstrap's media queries (mobile-first)
 
 ## Basics:
 
-padding/margin + direction + amount
+**padding/margin + direction + amount + -screensize**
 
 ## Syntax:
 
-pan = "padding all none"
-pax = "padding all extra small"
-pas = "padding all small"
-pam = "padding all medium"
-pal = "padding all large"
+pan-xs = "padding all none (at extra small screensize)"
 
-*Possible directions:* all/top/right/bottom/left
+pax-xs = "padding all extra small (at extra small screensize)"
 
-*Possible breakpoints:* xs, sm, md, lg
+pas-xs = "padding all small (at extra small screensize)"
+
+pam-xs = "padding all medium (at extra small screensize)"
+
+pal-xs = "padding all large (at extra small screensize)"
+
+
+**Possible directions:** all/top/right/bottom/left
+
+**Possible breakpoints:** xs, sm, md, lg
 
 
 ## Examples:
 
-Padding top large at the extra small screen size, and padding top none at the medium screen size.
-``
+Padding top large at the extra small screensize, and padding top none at the medium screensize.
+
+```
 <div class="ptl-xs ptn-md">
 </div>
-``
+```
 
-Padding left none at the extra small screen size, and padding left medium at the small screen size.
-``
+Padding left none at the extra small screensize, and padding left medium at the small screensize.
+
+```
 <div class="pln-xs plm-sm">
 </div>
-``
+```
