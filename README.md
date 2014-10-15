@@ -19,6 +19,8 @@ pam-xs = "padding all medium (at extra small screensize)"
 
 pal-xs = "padding all large (at extra small screensize)"
 
+paxl-xs = "padding all x-large (at extra small screensize)"
+
 
 **Possible directions:** all/top/right/bottom/left
 
@@ -26,6 +28,13 @@ pal-xs = "padding all large (at extra small screensize)"
 
 
 ## Examples:
+
+Padding all large, like normal spacing classes.
+
+```
+<div class="pal">
+</div>
+```
 
 Padding top large at the extra small screensize, and padding top none at the medium screensize.
 
